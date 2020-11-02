@@ -125,6 +125,11 @@ h5.judul{letter-spacing: 2px;}
   }
 }
 
+.info-kontak {
+  text-align:center;
+  color:#73d6ab;
+  font-size:12px;
+}
 /* Fallback for IE
 -------------------------------------------------- */
 
