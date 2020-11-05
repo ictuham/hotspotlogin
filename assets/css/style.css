@@ -103,6 +103,8 @@ h5.judul{letter-spacing: 2px;}
   color: #777;
 }
 
+.form-control { line-height:0.5!important;}
+
 .btn-google {
   color: white;
   background-color: #ea4335;
