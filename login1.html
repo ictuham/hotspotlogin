@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+  <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <title>UH Hotspot | Login </title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    	<div class="col-md-8">
+    		<h2 class="jumbotron text-muted" style="margin-top:40px;">H O T S P O T</h2>	
+    	</div>
+    	<div class="col-md-4 my-auto">
+    		<div class="card loginbox">
+    			<div class="card-body">
+    				<h5 class="lead">Login</h5>
+    				<form>
+    					
+    				</form>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+</div>
+
+<script src="assets/js/jquery.slim.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+$(if chap-id)
+<script type="text/javascript" src="assets/js/md5.js"></script>
+<script type="text/javascript">
+  $('#loginForm').submit(function () {
+      var password = $('#inputPassword');
+      password.val(hexMD5('$(chap-id)' + password.val() + '$(chap-challenge)'));
+  });
+</script>
+$(endif)
+
+</body>
+
+</html>
